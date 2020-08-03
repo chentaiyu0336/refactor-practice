@@ -43,10 +43,8 @@ public class Direction {
         if (o == null || getClass() != o.getClass()) return false;
 
         Direction direction1 = (Direction) o;
-
-        if (direction != direction1.direction) return false;
-
-        return true;
+        
+        return direction1.direction==direction;
     }
 
     @Override
