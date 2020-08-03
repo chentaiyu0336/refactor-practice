@@ -43,7 +43,7 @@ public class Direction {
         if (o == null || getClass() != o.getClass()) return false;
 
         Direction direction1 = (Direction) o;
-        
+
         return direction1.direction==direction;
     }
 
